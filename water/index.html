@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h2>Learning Management System</h2>
+    <h2>Student Registration</h2>
+    <div class="container">
+    <form id="registrationForm">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" /><br /><br />
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="text" id="mobile" name="mobile" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" /><br /><br />
+
+      <label for="course">Course(s):</label>
+      <input type="checkbox" id="java" name="course" value="Java" /> Java
+      <input type="checkbox" id="spring" name="course" value="Spring" />
+      Spring
+      <input type="checkbox" id="hibernate" name="course" value="Hibernate" />
+      Hibernate
+      <input type="checkbox" id="python" name="course" value="Python" />
+      Python
+      <input type="checkbox" id="nodejs" name="course" value="NodeJS" />
+      NodeJS<br /><br />
+
+      <button type="button" onclick="clearForm()">Cancel</button>
+      <button type="submit" onclick="validateForm(event)">Register</button>
+    </form>
+  </div>
+  </body>
+</html>

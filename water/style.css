@@ -1,0 +1,10 @@
+#container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 35px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
